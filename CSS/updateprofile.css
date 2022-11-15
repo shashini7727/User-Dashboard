@@ -83,3 +83,11 @@ i{
 .text{
     text-size-adjust: size 10px;
 }
+
+.table{
+    padding: 60px;
+}
+.no-gutters{
+    margin-left: 0;
+    margin-right: 0;
+}

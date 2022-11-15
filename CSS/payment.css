@@ -8,6 +8,11 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+.cotainer {
+    width: 100px;
+    height: 100px;
+    
+}
 
 .lead{
     font-weight: bold;
@@ -54,8 +59,10 @@ body{
     font-weight: 450px;
 }
 
-@media(max-width:767px)
+@media(max-width: 584px)
 {
+    
+    
     #side_nav{
         margin-left: -250px;
         position: fixed;
@@ -87,3 +94,25 @@ i{
 }
 
 
+div{
+    position: relative;
+    overflow: hidden;
+}
+
+input{
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top:0;
+}
+
+.table{
+    
+    background-color: #ffffff;
+    width:75%;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0px 0px 36px 15px rgba(184, 179, 179, 0.28);
+}
